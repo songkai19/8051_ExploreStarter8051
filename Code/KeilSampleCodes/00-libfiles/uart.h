@@ -41,7 +41,7 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 #ifndef _UART_H
 #define _UART_H
 
-#include <reg51.h>
+#include <reg52.h>
 #include "stdutils.h"
 
 /***************************************************************************************************

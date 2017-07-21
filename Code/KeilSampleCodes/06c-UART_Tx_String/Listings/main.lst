@@ -1,10 +1,10 @@
-C51 COMPILER V9.02   MAIN                                                                  02/26/2016 19:54:31 PAGE 1   
+C51 COMPILER V9.56.0.0   MAIN                                                              07/21/2017 14:42:02 PAGE 1   
 
 
-C51 COMPILER V9.02, COMPILATION OF MODULE MAIN
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE MAIN
 OBJECT MODULE PLACED IN .\Objects\main.obj
-COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE INCDIR(..\00-libfiles) DEBUG OBJECTEXTEN
-                    -D PRINT(.\Listings\main.lst) TABS(2) OBJECT(.\Objects\main.obj)
+COMPILER INVOKED BY: D:\Program Files\Keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE INCDIR(..\00-libfiles) DEB
+                    -UG OBJECTEXTEND PRINT(.\Listings\main.lst) OBJECT(.\Objects\main.obj)
 
 line level    source
 
@@ -57,13 +57,14 @@ line level    source
   47   1          return (0);
   48   1      }
   49          
+*** WARNING C294 IN LINE 47 OF main.c: unreachable code
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
    CODE SIZE        =     22    ----
-   CONSTANT SIZE    =     56    ----
-C51 COMPILER V9.02   MAIN                                                                  02/26/2016 19:54:31 PAGE 2   
+C51 COMPILER V9.56.0.0   MAIN                                                              07/21/2017 14:42:02 PAGE 2   
 
+   CONSTANT SIZE    =     56    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
    DATA SIZE        =   ----    ----
@@ -72,4 +73,4 @@ MODULE INFORMATION:   STATIC OVERLAYABLE
 END OF MODULE INFORMATION.
 
 
-C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

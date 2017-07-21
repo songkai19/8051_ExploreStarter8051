@@ -36,16 +36,17 @@ Errors and omissions should be reported to codelibraries@exploreembedded.com
 
 #include "uart.h"
 
+char code open[9]={0xAA,0x01,0x00,0x00,0x00,0x00,0x01,0x66,0xBB};
 
 int main() 
 {
-
+	unsigned int i = 0;
     UART_Init(9600);  // Initialize UARt at 9600 baud rate
-    
-    while(1)
-    {
-        UART_TxChar('e');
-    }
+
+	for (i = 0; i < 9; i++)
+        UART_TxChar(open[i]);
+
+	while (1);
     return (0);
 }
 
